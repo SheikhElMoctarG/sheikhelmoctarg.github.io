@@ -1,6 +1,5 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'static',
   mode: 'spa',
   router: {
     base: '/'
@@ -16,7 +15,8 @@ export default {
       { hid: 'description', name: 'description', content: "مرحبا بك في موقع المهندس الشيخ المختار الشنقيطي، هنا يمكنك الاطلاع على بعض المعلومات عني"},
       { name: 'format-detection', content: 'telephone=yes' },
       {hid: 'og:title', name: 'og:title', content: "الشيخ المختار الشنقيطي"},
-      {hid: 'og:image', property: 'og:image', content: 'https://g.top4top.io/p_22352uaul1.jpg'}
+      {hid: 'og:image', property: 'og:image', content: 'https://g.top4top.io/p_22352uaul1.jpg'},
+      { name: 'google-site-verification', content: "yJWcTIsLRg_pBx272GiOP9E6Es1xHO8vvnnrZ_GmEJ8"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
