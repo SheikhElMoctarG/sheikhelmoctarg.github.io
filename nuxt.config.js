@@ -16,7 +16,8 @@ export default {
       { name: 'format-detection', content: 'telephone=yes' },
       {hid: 'og:title', name: 'og:title', content: "الشيخ المختار الشنقيطي"},
       {hid: 'og:image', property: 'og:image', content: 'https://g.top4top.io/p_22352uaul1.jpg'},
-      { name: 'google-site-verification', content: "ZeiClcfAeb4Ssc-QGjzpPhylmKe2U6-Baks6Fj6AU2A"}
+      { name: 'google-site-verification', content: "ZeiClcfAeb4Ssc-QGjzpPhylmKe2U6-Baks6Fj6AU2A"},
+      {hid: 'keywords', name: 'keywords', content: 'Sheikh El-Moctar, sheikh el-moctar, sheikhelmoctar, SheikhElMoctar, الشيخ المختار الشنقيطي, الشيخ المختار, المهندس الشيخ المختار, مهندس برمجيات'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
@@ -48,9 +49,29 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
+  
+  // sitemap
+  sitemap: {
+    hostname: "https://sheikhelmoctarg.github.io",
+    gzip: true,
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
+    routes: [
+      '/',
+    ]
+  },
 
+  // robots
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
+  },
   // i18n
   i18n: {
     locales: [
@@ -146,5 +167,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    
   }
 }
