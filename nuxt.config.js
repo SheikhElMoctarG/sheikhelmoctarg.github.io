@@ -16,7 +16,7 @@ export default {
       { name: 'format-detection', content: 'telephone=yes' },
       {hid: 'og:title', name: 'og:title', content: "الشيخ المختار الشنقيطي"},
       {hid: 'og:image', property: 'og:image', content: 'https://g.top4top.io/p_22352uaul1.jpg'},
-      { name: 'google-site-verification', content: "yJWcTIsLRg_pBx272GiOP9E6Es1xHO8vvnnrZ_GmEJ8"}
+      { name: 'google-site-verification', content: "ZeiClcfAeb4Ssc-QGjzpPhylmKe2U6-Baks6Fj6AU2A"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
