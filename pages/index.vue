@@ -39,5 +39,8 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+body{
+  font-family: 'Tajawal', sans-serif;
+}
 </style>

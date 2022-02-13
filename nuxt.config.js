@@ -1,6 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  
+  target: 'static',
+  router: {
+    base: '/'
+  },
   head: {
     title: 'الشيخ المختار الشنقيطي',
     htmlAttrs: {
@@ -138,10 +141,7 @@ export default {
     // BaseURL: 'https://link-to-API'
   },
   // routes
-  router: {
-    extendRoutes(routes, resolve){
-    }
-  },
+  
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
