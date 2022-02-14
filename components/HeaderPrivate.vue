@@ -14,8 +14,8 @@
   </div>
 
   <!-- en -->
-  <div v-if="checkLang() == 'en'" dir="ltr" class=" container mx-auto md:px-16 lg:px-48 items-center my-2 font-tajawal text-left lg:text-right lg:flex lg:justify-between lg:mt-2">
-      <div class="mx-4 text-left">
+  <div v-if="checkLang() == 'en'" dir="ltr" class=" container mx-auto md:px-16 lg:px-48 items-center my-2 font-tajawal text-center lg:text-left  lg:flex lg:justify-between lg:mt-2">
+      <div class="mx-4 text-center lg:text-left">
         <div class="flex justify-center items-center lg:hidden"><img src="../assets/images/img-header.png" class="w-2/3 h-80 m-0"/></div>
         <h1 class="text-4xl font-extrabold text-black lg:my-2">{{$t('helloIam')}}</h1>
         <h1 class="text-4xl font-extrabold text-yellow-400 mb-2 lg:my-2">{{$t('sheikhEl')}}</h1>

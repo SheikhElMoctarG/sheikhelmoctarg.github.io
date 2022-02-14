@@ -15,9 +15,33 @@ export default {
       { hid: 'description', name: 'description', content: "مرحبا بك في موقع المهندس الشيخ المختار الشنقيطي، هنا يمكنك الاطلاع على بعض المعلومات عني"},
       { name: 'format-detection', content: 'telephone=yes' },
       {hid: 'og:title', name: 'og:title', content: "الشيخ المختار الشنقيطي"},
-      {hid: 'og:image', property: 'og:image', content: 'https://g.top4top.io/p_22352uaul1.jpg'},
       { name: 'google-site-verification', content: "ZeiClcfAeb4Ssc-QGjzpPhylmKe2U6-Baks6Fj6AU2A"},
-      {hid: 'keywords', name: 'keywords', content: 'Sheikh El-Moctar, sheikh el-moctar, sheikhelmoctar, SheikhElMoctar, الشيخ المختار الشنقيطي, الشيخ المختار, المهندس الشيخ المختار, مهندس برمجيات'}
+      {hid: 'keywords', name: 'keywords', content: 'Sheikh El-Moctar, sheikh el-moctar, sheikhelmoctar, SheikhElMoctar, الشيخ المختار الشنقيطي, الشيخ المختار, المهندس الشيخ المختار, مهندس برمجيات'},
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://g.top4top.io/p_22352uaul1.jpg'
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: 'https://g.top4top.io/p_22352uaul1.jpg'
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: 'الشيخ المختار الشنقيطي'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://g.top4top.io/p_22352uaul1.jpg'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
@@ -70,7 +94,7 @@ export default {
   // robots
   robots: {
     UserAgent: '*',
-    Disallow: '/'
+    Allow: '/'
   },
   // i18n
   i18n: {
